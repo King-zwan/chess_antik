@@ -123,9 +123,9 @@ class Board {
                     pawns[i] = pawn(i - 8, 6);    // Black pawns
             }
             kingw=king(4,0);
-            kingb=king(3,7);
+            kingb=king(4,7);
             queenw[0] = queen(3, 0);
-            queenb[0] = queen(4, 7);
+            queenb[0] = queen(3, 7);
             rookw[0] = rook(0, 0);
             rookw[1] = rook(7, 0);
             rookb[0] = rook(0, 7); 
